@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
 gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
-gem 'thin'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -23,6 +23,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'thin'
 end
 
 
