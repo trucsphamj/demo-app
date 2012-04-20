@@ -26,6 +26,8 @@ group :production do
   gem 'pg'
   #env. config
   gem 'thin'
+  gem 'therubyracer'
+
 end
 
 
