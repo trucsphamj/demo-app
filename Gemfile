@@ -24,7 +24,8 @@ end
 
 group :production do
   gem 'pg'
-  #gem 'thin'
+  #env. config
+  gem 'thin'
 end
 
 
